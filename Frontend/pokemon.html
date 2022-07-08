@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star wars</title>
+    <link rel="stylesheet" href="assets/css/pokemon.css" />
+  </head>
+  <body>
+    <div id="CardSW">
+      <div id="logoSW"><img src="assets/img/logo.png" /></div>
+      <h4>Selecione o seu personagem:</h4>
+      <br />
+
+      <!--RESULTADO1-->
+      <div id="resultado1">
+        <select id="saNomes" onclick="loadpk()">
+          <option value="0">Que a força esteja com você!</option>
+          <option value="1">Luke Skywalker</option>
+          <option value="2">C-3PO</option>
+          <option value="3">R2-D2</option>
+          <option value="4">Darth Vader</option>
+          <option value="5">Leia Organa</option>
+          <option value="6">Owen Lars</option>
+          <option value="7">Beru Whitesun lars</option>
+          <option value="8">R5-D4</option>
+          <option value="10">LObi-Wan Kenobi</option>
+          <option value="13">Chewbacca</option>
+          <option value="14">Han Solo</option>
+          <option value="20">Yoda</option>
+        </select>
+
+        <div id="showResultado">
+          <div id="infPersonagem">
+            <br />
+            <h2 id="nome"></h2>
+            <div id="aniversario"></div>
+            <div id="sexo"></div>
+            <div id="corPele"></div>
+            <div id="corOlhos"></div>
+            <br />
+          </div>
+          <div id="comboImagem">
+            <img id="picFront" />
+          </div>
+        </div>
+        <div id="c1" class="carregando">Carregando</div>
+      </div>
+
+      <!--RESULTADO2-->
+      <div id="resultado2">
+        <select id="saNomes2" onclick="loadpk2()">
+          <option value="0">Que a força esteja com você!</option>
+          <option value="1">Luke Skywalker</option>
+          <option value="2">C-3PO</option>
+          <option value="3">R2-D2</option>
+          <option value="4">Darth Vader</option>
+          <option value="5">Leia Organa</option>
+          <option value="6">Owen Lars</option>
+          <option value="7">Beru Whitesun lars</option>
+          <option value="8">R5-D4</option>
+          <option value="10">LObi-Wan Kenobi</option>
+          <option value="13">Chewbacca</option>
+          <option value="14">Han Solo</option>
+          <option value="20">Yoda</option>
+        </select>
+
+        <div id="showResultado2">
+          <div id="comboImagem">
+            <img id="picFront2" />
+          </div>
+
+          <div id="infPersonagem2">
+            <br />
+            <h2 id="nome2"></h2>
+            <div id="aniversario2"></div>
+            <div id="sexo2"></div>
+            <div id="corPele2"></div>
+            <div id="corOlhos2"></div>
+            <br />
+          </div>
+        </div>
+        <div id="c2" class="carregando carregando2">Carregando</div>
+      </div>
+    </div>
+
+    <script src="assets/js/pokemon.js"></script>
+  </body>
+</html>
