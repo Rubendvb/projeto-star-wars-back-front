@@ -19,7 +19,7 @@ function loadpk() {
   console.log("passou aqui");
   console.log(personagensSW);
 
-  var url = "http://localhost:8888/personagens/" + personagensSW;
+  var url = "http://localhost:9090/personagens/" + personagensSW;
 
   fetch(url)
     .then((response) => {
